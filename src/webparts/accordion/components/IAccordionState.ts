@@ -1,4 +1,6 @@
+import { Hero } from './heroes';
+
 export interface IAccordionState {
-  heroes: any;
+  heroes: Hero[];
   theme: string;
 }
